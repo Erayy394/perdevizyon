@@ -1,0 +1,78 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.melos_tool/
+
+# Build outputs
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/generated/
+android/**/intermediates/
+android/**/outputs/
+android/**/captures/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.pbcache
+ios/Flutter/App.framework/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# Xcode
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdatad/
+**/*.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# Windows
+windows/runner/Debug/
+windows/runner/Release/
+
+# Linux
+linux/flutter/ephemeral/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keys and secrets (do NOT commit signing keys)
+*.jks
+*.keystore
+key.properties
+*.pem
+*.p12
+*.crt
+*.der
+.env
+.env.*
+
+# Coverage
+coverage/
+
+# Logs
+*.log
+
+# Misc
+# For apps, generally commit pubspec.lock. Uncomment to ignore if desired.
+# pubspec.lock
